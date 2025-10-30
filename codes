@@ -15,7 +15,7 @@
       if (pass.length > 8 && /[A-Z]/.test(pass) && /\d/.test(pass) && /[^A-Za-z0-9]/.test(pass)) {
         strength = "Strong password  💪";
       } else if (pass.length > 5) {
-        strength = "Medium ⚡";
+        strength = "Medium level ⚡";
       }
       document.getElementById("strength").textContent = "Strength: " + strength;
     }
